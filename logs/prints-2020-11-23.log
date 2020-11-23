@@ -1,0 +1,6 @@
+17:12:09.508 [main] INFO  testScenarios.ValidateNavigationBar - Landing page has been displayed
+18:15:14.030 [main] INFO  testScenarios.SuccessfulLogin - Driver has been initialized
+18:15:24.635 [main] INFO  testScenarios.SuccessfulLogin - Landing page has been displayed
+18:15:34.798 [main] INFO  testScenarios.ValidateNavigationBar - Driver has been initialized
+18:15:46.150 [main] INFO  testScenarios.ValidateNavigationBar - Landing page has been displayed
+18:35:41.756 [main] INFO  testScenarios.SuccessfulLogin - Driver has been initialized

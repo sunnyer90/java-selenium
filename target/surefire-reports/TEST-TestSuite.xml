@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.057" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation/target/test-classes:/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation/target/classes:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sunmitta/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sunmitta/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sunmitta/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sunmitta/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/sunmitta/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sunmitta/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sunmitta/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sunmitta/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sunmitta/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sunmitta/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sunmitta/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/sunmitta/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sunmitta/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/sunmitta/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar:/Users/sunmitta/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar:/Users/sunmitta/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/sunmitta/.m2/repository/com/aventstack/extentreports/4.1.3/extentreports-4.1.3.jar:/Users/sunmitta/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/sunmitta/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/sunmitta/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/sunmitta/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sunmitta/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/sunmitta/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/sunmitta/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sunmitta/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/sunmitta/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/sunmitta/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation/target/surefire/surefirebooter8350763142424272018.jar /Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation/target/surefire 2020-09-25T16-40-30_107-jvmRun1 surefire4635084529724730507tmp surefire_07869116355890449484tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation/target/test-classes:/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation/target/classes:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sunmitta/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sunmitta/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sunmitta/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sunmitta/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sunmitta/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/sunmitta/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sunmitta/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sunmitta/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sunmitta/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sunmitta/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sunmitta/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sunmitta/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/sunmitta/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sunmitta/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/sunmitta/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar:/Users/sunmitta/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar:/Users/sunmitta/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/sunmitta/.m2/repository/com/aventstack/extentreports/4.1.3/extentreports-4.1.3.jar:/Users/sunmitta/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/sunmitta/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/sunmitta/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/sunmitta/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sunmitta/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/sunmitta/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/sunmitta/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sunmitta/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/sunmitta/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/sunmitta/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sunmitta"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation/target/surefire/surefirebooter8350763142424272018.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="sunmitta"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sunmitta/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/3g/15lhbbxs6m1fn_99chyxllmmdw4pf1/T/"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="/Users/sunmitta/Documents/Personal Docs/BWS/org.bws.automation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/sunmitta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="/Users/sunmitta/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="validatePreferencesSection" classname="testScenarios.ValidateNavigationBar" time="4.73">
+    <failure message="element click intercepted: Element &lt;span class=&quot;sr-only&quot;&gt;...&lt;/span&gt; is not clickable at point (28, 15). Other element would receive the click: &lt;div _ngcontent-c1=&quot;&quot; class=&quot;backdrop ng-star-inserted&quot; style=&quot;border-radius: 0px; background-color: rgba(0, 0, 0, 0.3);&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WKMIN4841327&apos;, ip: &apos;fe80:0:0:0:43a:5c15:50f7:82cf%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.38 (9047dbc2c693f..., userDataDir: /var/folders/3g/15lhbbxs6m1...}, goog:chromeOptions: {debuggerAddress: localhost:57206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 71a07d43b0f5fb355023f9daffc8a97d" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="sr-only">...</span> is not clickable at point (28, 15). Other element would receive the click: <div _ngcontent-c1="" class="backdrop ng-star-inserted" style="border-radius: 0px; background-color: rgba(0, 0, 0, 0.3);"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKMIN4841327', ip: 'fe80:0:0:0:43a:5c15:50f7:82cf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.38 (9047dbc2c693f..., userDataDir: /var/folders/3g/15lhbbxs6m1...}, goog:chromeOptions: {debuggerAddress: localhost:57206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71a07d43b0f5fb355023f9daffc8a97d
+	at testScenarios.ValidateNavigationBar.validatePreferencesSection(ValidateNavigationBar.java:44)
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+destination file name.//screenshots//validatePreferencesSection.png
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'org.apache.logging.log4j.simplelog.StatusLogger.level' to TRACE to show Log4j2 internal initialization logging.
+SStartingtar ChrtomeDriver in85.0g. ChromeD4r183.38 (9047dbciv2erc 85.0.469138f3.038 4(4049047dbc22cbbec5c916401c93f047400428bcb7ecc526a-c9140r1ec70fs/br8acn7ch-hc26ae-ards/ef41s8/3branc@h{-#7heads/41837@{#779}) on por9}) to 45n por6t14
+O 27504nly loc
+alO nlyconnecti ons are local connecaltiolownse da.r
+eP leallaose wsee edh.
+tPleatse sps://ece https://chromehdrivrer.ocmhromiuemd.riveorr.g/chrosmieucuritmy.or-consgide/rsaeticounrs ifty-coor sunsidegrgatestiions onsf or ons ugkeegestpions ionn kg CehromepeiDriver safe.ng Ch
+rCohmerDromiveDerriver sa wafe.
+s ChromseDtarted succerivssfuerlly.
+ was started successfully.
+Sep 25, 2020 4:40:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 25, 2020 4:40:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="testScenarios.SuccessfulLogin" time="4.644"/>
+</testsuite>

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.057 s <<< FAILURE! - in TestSuite
+validatePreferencesSection(testScenarios.ValidateNavigationBar)  Time elapsed: 4.73 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="sr-only">...</span> is not clickable at point (28, 15). Other element would receive the click: <div _ngcontent-c1="" class="backdrop ng-star-inserted" style="border-radius: 0px; background-color: rgba(0, 0, 0, 0.3);"></div>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKMIN4841327', ip: 'fe80:0:0:0:43a:5c15:50f7:82cf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.38 (9047dbc2c693f..., userDataDir: /var/folders/3g/15lhbbxs6m1...}, goog:chromeOptions: {debuggerAddress: localhost:57206}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 71a07d43b0f5fb355023f9daffc8a97d
+	at testScenarios.ValidateNavigationBar.validatePreferencesSection(ValidateNavigationBar.java:44)
+
