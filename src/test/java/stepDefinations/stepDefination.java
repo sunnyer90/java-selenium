@@ -16,12 +16,10 @@ import cucumber.api.java.en.When;
 import pageObjects.DashboardPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
-import testScenarios.SuccessfulLogin;
 
 public class stepDefination extends base {
 
 	public WebDriver driver;
-	public static Logger log = LogManager.getLogger(SuccessfulLogin.class.getName()); 
 	
 	
 	@Given("^Initialize the browser$")
